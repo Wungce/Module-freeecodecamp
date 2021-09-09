@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+}
+
+.page-wrapper{
+
+    width: 100%;
+}
+
+body{
+    background-image: url('../Img/Drink.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-wrapper{
+    width: 100%;
+}
+
+.icon-box{
+    padding: 2%;
+}
+#icon{
+    font-size: 35px;
+    color: green;
+}
+ .field-wrapper{
+    padding: 11px 0px;
+	box-shadow: 2px 2px 10px;
+    background-color: rgba(0, 0, 0, 0.733);
+
+}
+
+.para1{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    color: white;
+
+}
+.para2{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+h4{
+    width: 100%;
+    margin: 3%;
+}
+
+input{
+    padding: 3% 0%;
+    border-radius: 6px;
+}
+.input-field{
+    width: 100%;
+
+   
+}
+.input-name{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+.input-email{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.input-age{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+}
+
+.input-student{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+}
+
+select{
+    padding: 3% 0%;
+    border-radius: 6px;
+    color: hsl(0, 2%, 24%);
+    
+
+}
+
+
+@media screen and (min-width: 800px) {
+    body{
+        background-image: url('../Img/Drink.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .field-wrapper{
+        box-shadow: 2px 2px 15px; 
+        background-color: rgba(0, 0, 0, 0.733); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    h4{
+        width: 100%;
+        margin: 1%;
+    }
+    
+    input{
+        padding: 1% 0%;
+        border-radius: 6px;
+        
+    }
+
+    .input-name{
+        width: 40%;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    
+    }
+    .input-email{
+        width: 40%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    
+    
+    }
+    .input-age{
+        width: 40%;
+        font-family: 'Montserrat', sans-serif;
+    
+        color: white;
+    
+    }
+    
+    .input-student{
+        width: 40%;
+        font-family: 'Montserrat', sans-serif;
+    
+        color: white;
+    }
+    
+    select{
+        border-radius: 6px;
+        color: hsl(0, 2%, 24%);
+        padding: 1% 0%;
+        
+    
+    }
+    
+
+    
+}
